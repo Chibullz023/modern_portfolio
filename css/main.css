@@ -180,9 +180,6 @@ main {
 .job-2 {
   grid-area: job2; }
 
-.job-3 {
-  grid-area: job3; }
-
 .job {
   background: #515151;
   padding: 0.5rem;
