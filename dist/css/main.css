@@ -311,6 +311,59 @@ main#home h1 {
   height: 60px;
 }
 
+.cont-box{
+	max-width: 90%;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: space-evenly;
+	align-items: left;
+	padding: 25px 40px;
+	background-color: ;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+
+.field {
+	width: 90%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: white;
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 25px;
+	transition: .5s;
+}
+
+.field:hover{
+	background-color: yellow;
+}
+
+textarea {
+	min-height: 180px;
+}
+
+.btn-send {
+	display: block;
+	align-items: center;
+	border: 0;
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	cursor: pointer;
+	transition: .5s;
+	margin-bottom: 10px;
+}
+
+.btn-send:hover {
+	background-color: yellow;
+	color: #black;
+}
+
+.error {
+	color: #FF0000;
+}
+
+
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr);
@@ -367,6 +420,17 @@ main#home h1 {
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+  
+  .cont-box {
+	max-width: 90%;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: space-evenly;
+	align-items: left;
+	padding: 25px 20px;
+	background-color: ;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -377,3 +441,4 @@ main#home h1 {
     grid-template-columns: 1fr;
   }
 }
+
