@@ -385,7 +385,8 @@ main#home h1 {
   right: 0;
   background: #2f3640;
   color: #f5f6fa;
-  padding: 0 32px;
+  padding: 0 35px;
+  opacity: 0.5;
   box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
 
   transition: 400ms;
@@ -400,7 +401,7 @@ main#home h1 {
 }
 
 .cookie-btn {
-  background: #e84118;
+  background: #eece1a;
   border: 0;
   color: #f5f6fa;
   padding: 12px 48px;
